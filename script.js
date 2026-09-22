@@ -1,7 +1,7 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
 function copyEmail() {
-  const email = "Guilherme.m.xavier@outlook.com.br";
+  const email = "Guilherme.m.xavier@outlook.com";
 
   navigator.clipboard
     .writeText(email)
