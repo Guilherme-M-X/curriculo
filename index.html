@@ -1,296 +1,584 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Currículo – Guilherme de Moura Xavier</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Currículo online de Guilherme de Moura Xavier, Engenheiro da Computação e Analista de Suporte JR N2.">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guilherme de Moura Xavier | Segurança da Informação & Infraestrutura</title>
+  <meta name="description" content="Guilherme de Moura Xavier — Engenheiro da Computação com experiência em Segurança da Informação, SOC, Blue Team, Infraestrutura e Suporte Técnico." />
+  <meta name="author" content="Guilherme de Moura Xavier" />
+
+  <meta property="og:title" content="Guilherme de Moura Xavier | Segurança da Informação" />
+  <meta property="og:description" content="Engenheiro da Computação com experiência em Segurança da Informação, SOC, Blue Team, Infraestrutura e Suporte Técnico." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <main class="page" itemscope itemtype="http://schema.org/Person">
-        <aside class="sidebar">
-            <header class="profile">
-                <h1 class="name" itemprop="name">Guilherme de Moura Xavier</h1>
-                <p class="role" itemprop="jobTitle">Engenheiro da Computação · Analista de Suporte JR N2</p>
-            </header>
+  <header class="topbar">
+    <div class="container topbar-content">
+      <a href="#inicio" class="logo">GMX<span>.</span></a>
 
-            <section class="contact" aria-label="Informações de contato">
-                <h2>Contato</h2>
-                <ul>
-                    <li><span>E-mail:</span> <a href="mailto:guimx1903@hotmail.com"
-                            itemprop="email">guimx1903@hotmail.com</a></li>
-                    <li><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/guilherme-de-moura-xavier"
-                            itemprop="sameAs">linkedin.com/in/guilherme-de-moura-xavier</a></li>
-                    <li><span>Cidade:</span> <span itemprop="addressLocality">Curitiba – PR</span></li>
-                </ul>
-            </section>
+      <nav class="navigation" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#competencias">Competências</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#certificacoes">Certificações</a>
+      </nav>
 
-            <section class="skills" aria-label="Competências técnicas">
-                <h2>Competências</h2>
-                <ul>
-                    <li>Windows e Linux</li>
-                    <li>Pentest · Segurança da Informação</li>
-                    <li>Redes e suporte a usuários</li>
-                    <li>Desenvolvimento: C, C++, Java, Python</li>
-                    <li>Banco de dados SQL</li>
-                    <li>Web: HTML, CSS, conceitos de front-end</li>
-                </ul>
-            </section>
+      <a href="#contato" class="nav-contact">Contato</a>
+    </div>
+  </header>
 
-            <section class="soft-skills" aria-label="Aptidões comportamentais">
-                <h2>Aptidões</h2>
-                <ul>
-                    <li>Organização</li>
-                    <li>Pontualidade</li>
-                    <li>Flexibilidade</li>
-                    <li>Adaptabilidade</li>
-                </ul>
-            </section>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
 
-            <section class="languages" aria-label="Idiomas">
-                <h2>Idiomas</h2>
-                <ul>
-                    <li>Português · Nativo</li>
-                    <li>Inglês · Intermediário Leitura e Escrita - Estudos em Andamento</li>
-                </ul>
-            </section>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="availability">
+            <span class="availability-dot"></span>
+            Aberto a oportunidades profissionais
+          </div>
+
+          <p class="eyebrow">SEGURANÇA DA INFORMAÇÃO · SOC · INFRAESTRUTURA</p>
+
+          <h1>
+            Guilherme de
+            <span>Moura Xavier</span>
+          </h1>
+
+          <p class="hero-title">Engenheiro da Computação</p>
+
+          <p class="hero-description">
+            Profissional de Tecnologia da Informação com experiência em
+            <strong>Segurança da Informação, suporte técnico e ambientes corporativos</strong>,
+            direcionando minha carreira para
+            <strong>SOC, Blue Team, Segurança Cibernética e Infraestrutura.</strong>
+          </p>
+
+          <div class="hero-actions">
+            <a href="Curriculo_Guilherme_Xavier.pdf" download class="button button-primary">
+              ↓ Baixar currículo
+            </a>
+
+            <a href="https://www.linkedin.com/in/guilherme-de-moura-xavier"
+               target="_blank" rel="noopener noreferrer"
+               class="button button-secondary">
+              LinkedIn
+            </a>
+
+            <button class="button button-ghost" onclick="copyEmail()">Copiar e-mail</button>
+          </div>
+
+          <div class="hero-location">
+            <span>📍 Curitiba - PR</span>
+            <span class="separator"></span>
+            <span>Português · Nativo</span>
+            <span class="separator"></span>
+            <span>Inglês · Intermediário</span>
+          </div>
+        </div>
+
+        <aside class="profile-card">
+          <div class="profile-card-top">
+            <span class="profile-label">PERFIL PROFISSIONAL</span>
+            <div class="profile-icon">GX</div>
+          </div>
+
+          <div class="profile-focus">
+            <span>Foco profissional</span>
+            <h2>Cybersecurity<br>& Infrastructure</h2>
+          </div>
+
+          <div class="profile-items">
+            <div class="profile-item">
+              <span class="profile-number">SOC</span>
+              <span>Monitoramento, defesa e resposta</span>
+            </div>
+
+            <div class="profile-item">
+              <span class="profile-number">CC</span>
+              <span>ISC² Certified in Cybersecurity</span>
+            </div>
+
+            <div class="profile-item">
+              <span class="profile-number">UTFPR</span>
+              <span>Pós em Segurança Cibernética</span>
+            </div>
+          </div>
         </aside>
+      </div>
+    </section>
 
-        <section class="content">
-            <section class="section about" aria-label="Objetivo profissional">
-                <h2>Objetivo</h2>
-                <p>
-                    Engenheiro da Computação atuando em tecnologia, suporte e segurança da informação, com foco em
-                    infraestrutura de redes e proteção de sistemas. Busco crescer na área aplicando conhecimentos
-                    práticos para construir ambientes seguros e eficientes. Apaixonado por evolução constante em
-                    hardening, administração de sistemas e cibersegurança.
-                </p>
-            </section>
+    <section class="recruiter-strip">
+      <div class="container recruiter-strip-grid">
+        <div>
+          <span class="mini-label">RESUMO RÁPIDO PARA RECRUTADORES</span>
+          <strong>Segurança da Informação · SOC · Blue Team · Infraestrutura</strong>
+        </div>
+        <div>
+          <span class="mini-label">EXPERIÊNCIA ATUAL</span>
+          <strong>Assistente de T.I · Honda Niponsul</strong>
+        </div>
+        <div>
+          <span class="mini-label">FORMAÇÃO</span>
+          <strong>Engenharia da Computação · Pós em Cybersecurity</strong>
+        </div>
+      </div>
+    </section>
 
-            <section class="section experience" aria-label="Experiência profissional">
-                <h2>Experiência Profissional</h2>
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">01</span>
+          <div>
+            <p class="eyebrow">PERFIL</p>
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
 
-                <article class="item">
-                    <header>
-                        <h3>Analista de Suporte JR N2</h3>
-                        <span class="company">Stefanini Brasil</span>
-                        <span class="period">Jan/2026 – Maio/2026</span>
-                    </header>
-                    <ul>
-                        <li>Atendimento de chamados de N2 e suporte a usuários em ambiente corporativo.</li>
-                        <li>Diagnóstico, análise e resolução de incidentes em sistemas e infraestrutura.</li>
-                        <li>Colaboração com equipes de desenvolvimento e infraestrutura na solução de problemas.</li>
-                    </ul>
-                </article>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Sou <strong>Engenheiro da Computação</strong> com experiência em
+              Segurança da Informação, suporte técnico N2 e ambientes corporativos de TI.
+            </p>
 
-                <article class="item">
-                    <header>
-                        <h3>Estágio em Sistemas Eletrônicos e Digitais</h3>
-                        <span class="company">Lactec</span>
-                        <span class="period">Mai/2025 – Dez/2025</span>
-                    </header>
-                    <ul>
-                        <li>Apoio em projetos envolvendo sistemas eletrônicos e digitais.</li>
-                        <li>Execução de testes, medições e documentação técnica.</li>
-                    </ul>
-                </article>
+            <p>
+              Atualmente curso Pós-Graduação em
+              <strong>Segurança Cibernética pela UTFPR</strong> e direciono meu
+              desenvolvimento profissional para SOC, Blue Team, infraestrutura e
+              defesa de ambientes corporativos.
+            </p>
 
-                <article class="item">
-                    <header>
-                        <h3>Estágio em T.I</h3>
-                        <span class="company">Engefoto</span>
-                        <span class="period">Jan/2025 – Mar/2025</span>
-                    </header>
-                    <ul>
-                        <li>Suporte a usuários, manutenção de equipamentos e ambiente de rede.</li>
-                        <li>Auxílio em rotinas de infraestrutura de T.I.</li>
-                    </ul>
-                </article>
+            <p>
+              Tenho conhecimentos em SIEM, Wazuh, redes, firewalls, Linux,
+              Windows, Python, SQL e Git, combinando infraestrutura,
+              desenvolvimento e segurança.
+            </p>
+          </div>
 
-                <article class="item">
-                    <header>
-                        <h3>Estágio em Segurança da Informação</h3>
-                        <span class="company">Ligga Telecom</span>
-                        <span class="period">Jan/2023 – Dez/2024</span>
-                    </header>
-                    <ul>
-                        <li>Atuação em processos e rotinas de segurança da informação.</li>
-                        <li>Monitoramento, apoio em investigações e análise de vulnerabilidades.</li>
-                    </ul>
-                </article>
+          <div class="interest-card">
+            <span class="card-label">ÁREAS DE INTERESSE</span>
 
-                <article class="item">
-                    <header>
-                        <h3>Jovem Aprendiz</h3>
-                        <span class="company">Fast Shop</span>
-                        <span class="period">Set/2022 – Dez/2022</span>
-                    </header>
-                    <ul>
-                        <li>Atendimento ao cliente e apoio às rotinas administrativas da loja.</li>
-                    </ul>
-                </article>
-            </section>
+            <div class="interest-list">
+              <span>SOC</span>
+              <span>Blue Team</span>
+              <span>Cybersecurity</span>
+              <span>SIEM</span>
+              <span>Infraestrutura</span>
+              <span>Network Security</span>
+              <span>Hardening</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <section class="section education" aria-label="Formação acadêmica">
-                <h2>Formação</h2>
-                <article class="item">
-                    <header>
-                        <h3>Pós Graduação em Segurança Cibernética</h3>
-                        <span class="company">UTFPR</span>
-                        <span class="period">2026 - 2028 - Atual</span>
-                    </header>
-                    <p>Curso em andamento, objetivo de aprofundar os conhecimentos em segurança da informação.</p>
-                </article>
+    <section class="section section-alt" id="competencias">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">02</span>
+          <div>
+            <p class="eyebrow">CONHECIMENTOS</p>
+            <h2>Competências técnicas</h2>
+          </div>
+        </div>
 
-                <article class="item">
-                    <header>
-                        <h3>Inglês</h3>
-                        <span class="company">Wizard</span>
-                        <span class="period">2026 - Atual</span>
-                    </header>
-                    <p>Curso em andamento, com foco em comunicação oral e escrita.</p>
-                </article>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">◈</div>
+            <h3>Segurança Cibernética</h3>
+            <p>Conceitos e práticas voltadas à proteção de ambientes corporativos.</p>
+            <div class="tags">
+              <span>SIEM</span>
+              <span>Wazuh</span>
+              <span>Blue Team</span>
+              <span>Pentest</span>
+              <span>Firewalls</span>
+              <span>Hardening</span>
+            </div>
+          </article>
 
-                <article class="item">
-                    <header>
-                        <h3>Engenharia da Computação</h3>
-                        <span class="company">Universidade Positivo</span>
-                        <span class="period">2022 – 2025</span>
-                    </header>
-                    <p>Curso concluído, com foco em sistemas embarcados e soluções de hardware e software.</p>
-                </article>
-            </section>
+          <article class="skill-card">
+            <div class="skill-icon">⛓</div>
+            <h3>Infraestrutura & Redes</h3>
+            <p>Administração, suporte e troubleshooting em ambientes corporativos.</p>
+            <div class="tags">
+              <span>Windows</span>
+              <span>Linux</span>
+              <span>Redes</span>
+              <span>TCP/IP</span>
+              <span>Suporte N2</span>
+            </div>
+          </article>
 
+          <article class="skill-card">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>Desenvolvimento</h3>
+            <p>Conhecimentos em desenvolvimento, automação e bancos de dados.</p>
+            <div class="tags">
+              <span>Python</span>
+              <span>C</span>
+              <span>Java</span>
+              <span>SQL</span>
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+          </article>
 
-            <section class="section courses" aria-label="Cursos e aperfeiçoamentos">
-                <h2>Aperfeiçoamento & Atividades Complementares</h2>
+          <article class="skill-card">
+            <div class="skill-icon">⚙</div>
+            <h3>Ferramentas</h3>
+            <p>Tecnologias utilizadas em desenvolvimento, segurança e infraestrutura.</p>
+            <div class="tags">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Wazuh</span>
+              <span>Fortigate</span>
+              <span>Power BI</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-                <article class="item">
-                    <header>
-                        <h3>Certified In Cybersecurity</h3>
-                        <span class="company">ISC2</span>
-                        <span class="period">2026</span>
-                    </header>
-                    <p>Certificação em cybersecurity.</p>
-                </article>
+    <section class="section" id="experiencia">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">03</span>
+          <div>
+            <p class="eyebrow">CARREIRA</p>
+            <h2>Experiência profissional</h2>
+          </div>
+        </div>
 
-                <article class="item">
-                    <header>
-                        <h3>Pentest do Zero ao Profissional</h3>
-                        <span class="company">Solyd</span>
-                        <span class="period">2024 – 2025</span>
-                    </header>
-                    <p>Formação em testes de invasão, segurança ofensiva e identificação de vulnerabilidades.</p>
-                </article>
+        <div class="timeline">
+          <article class="timeline-item active">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="current-job">ATUAL</span>
+                  <h3>Assistente de T.I</h3>
+                  <p class="company">Honda Niponsul</p>
+                </div>
+                <span class="period">Jun/2026 – Atual</span>
+              </div>
+              <p>
+                Atuação em ambiente corporativo de Tecnologia da Informação,
+                suporte aos usuários, infraestrutura e resolução de incidentes.
+              </p>
+            </div>
+          </article>
 
-                <article class="item">
-                    <header>
-                        <h3>Cursos do Google</h3>
-                        <span class="company">Google</span>
-                        <ul>
-                            <li>Foundations of Cybersecurity with Google</li>
-                            <li>Play It Safe: Manage Security Risks</li>
-                            <li>Connect And Protect: Networks and Network Security</li>
-                            <li>Tools of the Trade: Linux and SQL</li>
-                            <li>Assets, Threats, and Vulnerabilities</li>
-                            <li>Sound the Alarm: Detection and Response</li>
-                            <li>Automate Cybersecurity Tasks with Python</li>
-                            <li>Put It to Work: Prepare for Cybersecurity Jobs</li>
-                            <li>Google Cybersecurity</li>
-                        </ul>
-                    </header>
-                    <p>Cursos realizados na plataforma Coursera do Google.</p>
-                </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3>Analista de Suporte Jr N2</h3>
+                  <p class="company">Stefanini Brasil</p>
+                </div>
+                <span class="period">Jan/2026 – Mai/2026</span>
+              </div>
+              <p>
+                Atendimento N2, troubleshooting de incidentes e suporte em ambientes corporativos.
+              </p>
+            </div>
+          </article>
 
-                <article class="item">
-                    <header>
-                        <h3>Cursos da Udemy</h3>
-                        <span class="company">Udemy</span>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3>Estágio em Sistemas Eletrônicos e Digitais</h3>
+                  <p class="company">Lactec</p>
+                </div>
+                <span class="period">Mai/2025 – Dez/2025</span>
+              </div>
+              <p>
+                Participação em projetos envolvendo sistemas eletrônicos e digitais,
+                testes e documentação técnica.
+              </p>
+            </div>
+          </article>
 
-                        <ul>
-                            <li>Lógica de Programação e Algoritmos com C</li>
-                            <li>Power BI Completo - Do Básico ao Avançado</li>
-                            <li>Git Completo: Do Básico ao Avançado</li>
-                            <li>Aprendendo Fortigate Firewall do Zero ao Avançado (NSE4)</li>
-                            <li>Arquitetura de Redes</li>
-                            <li>Python 3 - Curso Completo do Básico ao Avançado</li>
-                            <li>Domine Web - 20 Cursos - HTML5, CSS3, SASS, Bootstrap, JS, ES6, PHP, OO, MySQL, JQuery,
-                                MVC, APIs, GIT</li>
-                        </ul>
-                    </header>
-                    <p>Cursos realizados na plataforma Udemy.</p>
-                </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3>Estágio de T.I</h3>
+                  <p class="company">Engefoto</p>
+                </div>
+                <span class="period">Jan/2025 – Mar/2025</span>
+              </div>
+              <p>
+                Suporte aos usuários e apoio às rotinas de infraestrutura de tecnologia.
+              </p>
+            </div>
+          </article>
 
-                <article class="item">
-                    <header>
-                        <h3>Cursos do LinkedIn</h3>
-                        <span class="company">LinkedIn Learning</span>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3>Estágio em Segurança da Informação</h3>
+                  <p class="company">Ligga Telecom</p>
+                </div>
+                <span class="period">Jan/2023 – Dez/2024</span>
+              </div>
+              <p>
+                Experiência com processos de Segurança da Informação, monitoramento
+                e análise de vulnerabilidades.
+              </p>
+            </div>
+          </article>
 
-                        <ul>
-                            <li>Fundamentos de Windows Server</li>
-                            <li>Introdução a ISO 27000 e Padrões de Segurança da Informação</li>
-                        </ul>
-                    </header>
-                    <p>Cursos realizados no LinkedIn Learning.</p>
-                </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3>Jovem Aprendiz</h3>
+                  <p class="company">Fast Shop</p>
+                </div>
+                <span class="period">Set/2022 – Dez/2022</span>
+              </div>
+              <p>Atendimento ao cliente e apoio às atividades administrativas.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-                <article class="item">
-                    <header>
-                        <h3>Cursos da Hack & Fix</h3>
-                        <span class="company">Hack & Fix</span>
-                        <ul>
-                            <li>Certified Phishing Prevention Specialist (CPPS)</li>
-                        </ul>
-                    </header>
-                    <p>Cursos realizados na plataforma Hack & Fix.</p>
-                </article>
+    <section class="section section-alt" id="projetos">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">04</span>
+          <div>
+            <p class="eyebrow">PRÁTICA</p>
+            <h2>Laboratório & Projetos</h2>
+          </div>
+        </div>
 
-                <article class="item">
-                    <header>
-                        <h3>Curso de Técnico de Informática</h3>
-                        <span class="company">Prime Cursos</span>
-                        <span class="period">40h</span>
-                    </header>
-                    <p>Conceitos de hardware, software, redes e suporte técnico.</p>
-                </article>
+        <div class="projects-intro">
+          <p>
+            Espaço destinado a projetos práticos, laboratórios e estudos aplicados.
+            Conforme novos projetos forem publicados, esta seção pode apontar diretamente
+            para repositórios no GitHub.
+          </p>
+        </div>
 
-                <article class="item">
-                    <header>
-                        <h3>Curso de Python</h3>
-                        <span class="company">Prime Cursos</span>
-                        <span class="period">50h</span>
-                    </header>
-                    <p>Lógica de programação, estruturas de dados e automação com Python.</p>
-                </article>
+        <div class="projects-grid">
+          <article class="project-card">
+            <span class="project-status">LAB</span>
+            <h3>Wazuh SIEM Lab</h3>
+            <p>
+              Ambiente de estudos para coleta, monitoramento e análise de eventos
+              de segurança utilizando Wazuh.
+            </p>
+            <div class="tags">
+              <span>Wazuh</span>
+              <span>SIEM</span>
+              <span>Linux</span>
+              <span>Blue Team</span>
+            </div>
+          </article>
 
-                <article class="item">
-                    <header>
-                        <h3>Outros Cursos</h3>
-                        <span class="company">Cursos</span>
-                        <ul>
-                            <li>Introdução ao Banco de Dados MySQL</li>
-                            <li>QEE PRO - Certificação em Qualidade de energia elétrica</li>
-                            <li>Microsoft Word - Intermediário</li>
-                            <li>Microsoft PowerPoint - Avançado</li>
-                            <li>Microsoft Excel - Intermediário</li>
-                        </ul>
-                    </header>
-                    <p>Cursos realizados em diversas plataformas e instituições.</p>
-                </article>
-            </section>
+          <article class="project-card">
+            <span class="project-status">HOMELAB</span>
+            <h3>Infraestrutura & Segurança</h3>
+            <p>
+              Laboratório voltado a redes, administração de sistemas, Windows, Linux,
+              troubleshooting e práticas de segurança.
+            </p>
+            <div class="tags">
+              <span>Windows</span>
+              <span>Linux</span>
+              <span>Redes</span>
+              <span>Hardening</span>
+            </div>
+          </article>
 
-            <footer class="section footer" aria-label="Rodapé">
-                <p>
-                    Este currículo é atualizado periodicamente. Versão online de
-                    <span class="highlight">Guilherme de Moura Xavier</span>.
-                </p>
-            </footer>
-        </section>
-    </main>
+          <article class="project-card">
+            <span class="project-status">ESTUDOS</span>
+            <h3>Cybersecurity Labs</h3>
+            <p>
+              Estudos práticos de vulnerabilidades, segurança defensiva,
+              análise de riscos e fundamentos de resposta a incidentes.
+            </p>
+            <div class="tags">
+              <span>Vulnerabilidades</span>
+              <span>Blue Team</span>
+              <span>Pentest</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <span class="project-status">AUTOMAÇÃO</span>
+            <h3>Python para Segurança</h3>
+            <p>
+              Scripts e automações para apoio a tarefas de infraestrutura,
+              análise e operações de segurança.
+            </p>
+            <div class="tags">
+              <span>Python</span>
+              <span>Automação</span>
+              <span>Security</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="formacao">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">05</span>
+          <div>
+            <p class="eyebrow">EDUCAÇÃO</p>
+            <h2>Formação acadêmica</h2>
+          </div>
+        </div>
+
+        <div class="education-grid">
+          <article class="education-card">
+            <span class="status">EM ANDAMENTO</span>
+            <p class="education-type">Pós-Graduação</p>
+            <h3>Segurança Cibernética</h3>
+            <p class="institution">Universidade Tecnológica Federal do Paraná</p>
+            <strong>UTFPR</strong>
+            <span class="education-period">2026 — 2028</span>
+          </article>
+
+          <article class="education-card">
+            <span class="status completed">CONCLUÍDO</span>
+            <p class="education-type">Graduação</p>
+            <h3>Engenharia da Computação</h3>
+            <p class="institution">Universidade Positivo</p>
+            <strong>UP</strong>
+            <span class="education-period">2022 — 2025</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="certificacoes">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">06</span>
+          <div>
+            <p class="eyebrow">CERTIFICAÇÕES</p>
+            <h2>Desenvolvimento profissional</h2>
+          </div>
+        </div>
+
+        <div class="cert-grid">
+          <article class="cert-card featured">
+            <span class="cert-org">ISC²</span>
+            <h3>Certified in Cybersecurity</h3>
+            <p>CC</p>
+          </article>
+
+          <article class="cert-card">
+            <span class="cert-org">GOOGLE</span>
+            <h3>Google Cybersecurity</h3>
+            <p>Professional Certificate</p>
+          </article>
+
+          <article class="cert-card">
+            <span class="cert-org">HACK & FIX</span>
+            <h3>Certified Phishing Prevention Specialist</h3>
+            <p>CPPS</p>
+          </article>
+
+          <article class="cert-card">
+            <span class="cert-org">SOLYD</span>
+            <h3>Pentest do Zero ao Profissional</h3>
+            <p>Offensive Security</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="recruiter">
+      <div class="container recruiter-grid">
+        <div>
+          <p class="eyebrow">PARA RECRUTADORES</p>
+          <h2>Procurando um profissional de Tecnologia & Segurança?</h2>
+          <p>
+            Tenho interesse em oportunidades relacionadas a Segurança da Informação,
+            SOC, Blue Team, Cybersecurity, Infraestrutura e áreas correlatas.
+          </p>
+        </div>
+
+        <div class="recruiter-actions">
+          <a href="mailto:Guilherme.m.xavier@outlook.com.br?subject=Oportunidade%20Profissional%20-%20Guilherme%20Xavier"
+             class="button button-primary button-large">
+            Enviar e-mail
+          </a>
+
+          <a href="Curriculo_Guilherme_Xavier.pdf" download
+             class="button button-secondary button-large">
+            Baixar CV
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container">
+        <div class="contact-box">
+          <p class="eyebrow">CONTATO</p>
+          <h2>Vamos conversar?</h2>
+
+          <p>
+            Para oportunidades profissionais, projetos ou networking,
+            você pode entrar em contato por e-mail ou LinkedIn.
+          </p>
+
+          <div class="contact-data">
+            <a href="mailto:Guilherme.m.xavier@outlook.com.br">
+              <small>E-MAIL</small>
+              <strong>Guilherme.m.xavier@outlook.com.br</strong>
+            </a>
+
+            <a href="https://www.linkedin.com/in/guilherme-de-moura-xavier"
+               target="_blank" rel="noopener noreferrer">
+              <small>LINKEDIN</small>
+              <strong>/guilherme-de-moura-xavier</strong>
+            </a>
+
+            <div>
+              <small>LOCALIZAÇÃO</small>
+              <strong>Curitiba - Paraná</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <strong>Guilherme de Moura Xavier</strong>
+        <p>Engenharia da Computação · Cybersecurity · Infraestrutura</p>
+      </div>
+
+      <p>© <span id="year"></span> Guilherme de Moura Xavier</p>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast">E-mail copiado!</div>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
